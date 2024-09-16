@@ -26,7 +26,7 @@ PageController pageController=PageController();
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("color page"),
+        title: Text("Your page"),
         backgroundColor: Colors.cyan,
       ),
       body:PageView.builder(
